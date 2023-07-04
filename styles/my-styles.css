@@ -11,7 +11,11 @@ h2 {color: rgb(255, 255, 255);
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 0.2em;}
-    
+   
+.banner {
+    position: relative;
+}   
+
 .header {
     position: relative;
     width: 100%;
@@ -24,24 +28,24 @@ h2 {color: rgb(255, 255, 255);
     
     .logo {
         position: absolute;
-        top: 50%;
+        top: 20%;
         left: 50%;
-        transform: translate(-50%, -50%);
-        width: 20em;
-        height: 20em;}
+        transform: translate(-50%, -50%);}
     
     .logo img {
-        width: 100%;
+        width: 40vw;
         height: auto;
         opacity: 0.8;}
 
+
+
 .logo-text {
     position: absolute;
-    top: 50%; /* Position the text at the bottom of the logo div */
+    top: 200%; /* Position the text at the bottom of the logo div */
     left: 50%; /* Center the text horizontally */
     transform: translateX(-50%); /* Adjust the text position to its center */
     text-align: center; /* Center the text within its own space */
-    font-size: 4em; /* Adjust as needed */
+    font-size: calc(1rem + 6vw);
     color: rgb(255, 255, 255, 0.8); /* Adjust as needed */
     white-space: nowrap; /* Prevent the text from wrapping */
     width: auto; /* Allows the text to expand to its natural width */
@@ -80,7 +84,7 @@ body {padding: 3em;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.781));
 }
 
-
+/*
 @media all and (pointer:none) , (pointer:coarse) {
     body {
         padding: 0em;
@@ -101,4 +105,4 @@ body {padding: 3em;
         row-gap: 0.5em;
     }
          
-} 
+} */
