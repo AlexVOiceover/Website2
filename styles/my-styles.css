@@ -17,14 +17,35 @@ h2 {color: rgb(255, 255, 255);
     width: 100%;
     height: auto;}
  
-    .header img {
-    width: 100%;
-    height: auto;
-    }
+    .banner img {
+        display: block;
+        width: 100%;
+        height: auto;}
     
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20em;
+        height: 20em;}
+    
+    .logo img {
+        width: 100%;
+        height: auto;
+        opacity: 0.8;}
 
-
-
+.logo-text {
+    position: absolute;
+    top: 50%; /* Position the text at the bottom of the logo div */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Adjust the text position to its center */
+    text-align: center; /* Center the text within its own space */
+    font-size: 4em; /* Adjust as needed */
+    color: rgb(255, 255, 255, 0.8); /* Adjust as needed */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    width: auto; /* Allows the text to expand to its natural width */
+}
 
     
 p {font-family: 'Roboto', sans-serif;
