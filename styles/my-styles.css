@@ -101,7 +101,7 @@ body {padding: 3em;
 
 @media all and (pointer:none) , (pointer:coarse) {
     body {
-        padding: 0.3em;
+        padding: 0em;
     } 
 
     .flex-container {
