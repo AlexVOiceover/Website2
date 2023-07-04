@@ -20,14 +20,20 @@
         <main>
            
             <div class="header">
-                <img src="./images/banner.png" alt="Landscape Image">
-                <h1 class="title">
-                    <span>F</span>
-                    <span>A</span>
-                    <span>C</span>
-                </h1>
-
-            
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+                  <defs>
+                    <pattern id="p" patternUnits="userSpaceOnUse" width="800" height="300">
+                      <image href="./images/banner.png" x="0" y="0" width="800" height="300" />
+                    </pattern>
+                    <mask id="m">
+                      <rect width="800" height="300" fill="#fff"/>
+                      <text x="50" y="150" fill="#000" font-size="100" font-family="Verdana">ABC</text>
+                    </mask>
+                  </defs>
+                  <rect width="800" height="300" fill="url(#p)" mask="url(#m)"/>
+                  <image href="./images/logo.png" x="50" y="50" width="200" height="200" />
+                </svg>
+                <h1 class="title">                </h1>
             </div>
 
 
