@@ -19,37 +19,53 @@ h2 {color: rgb(255, 255, 255);
 .header {
     position: relative;
     width: 100%;
-    height: auto;}
- 
-    .banner img {
-        display: block;
-        width: 100%;
-        height: auto;}
-    
-    .logo {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%, -50%);}
-    
-    .logo img {
-        width: 40vw;
-        height: auto;
-        opacity: 0.8;}
+    height: auto;
+}
 
+.banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    z-index: 1;
+}
+
+.logo-circle {
+    width: 53vw;
+    height: auto;
+    z-index: 1;
+}
+
+.logo-FAC {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 35vw;
+    height: auto;
+    opacity: 0.9;
+    z-index: 2;
+}
 
 .logo-text {
     position: absolute;
-    top: 200%; /* Position the text at the bottom of the logo div */
-    left: 50%; /* Center the text horizontally */
-    transform: translateX(-50%); /* Adjust the text position to its center */
-    text-align: center; /* Center the text within its own space */
-    font-size: calc(1rem + 6vw);
-    color: rgb(255, 255, 255, 0.8); /* Adjust as needed */
-    white-space: nowrap; /* Prevent the text from wrapping */
-    width: auto; /* Allows the text to expand to its natural width */
+    bottom: 10%; 
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-size: calc(1rem + 5vw);
+    color: rgb(255, 255, 255, 0.9);
+    /* white-space: nowrap; */
+    z-index: 2;
 }
+
+    
 
     
 p {font-family: 'Roboto', sans-serif;
