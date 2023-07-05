@@ -37,7 +37,7 @@ h2 {color: rgb(255, 255, 255);
 }
 
 .logo-circle {
-    width: 53vw;
+    width: 51vw;
     height: auto;
     z-index: 1;
 }
@@ -51,6 +51,7 @@ h2 {color: rgb(255, 255, 255);
     height: auto;
     opacity: 0.9;
     z-index: 2;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .logo-text {
@@ -60,8 +61,10 @@ h2 {color: rgb(255, 255, 255);
     transform: translate(-50%, 0);
     text-align: center;
     font-size: calc(1rem + 5vw);
-    color: rgb(255, 255, 255, 0.9);
+    color: rgb(255, 255, 255, 0.8);
+    line-height: 1.2; /* Adjust this value to decrease or increase the space between lines */
     /* white-space: nowrap; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 
