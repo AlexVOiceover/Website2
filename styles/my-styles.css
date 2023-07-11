@@ -20,6 +20,7 @@ h2 {color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
     height: auto;
+
 }
 
 .banner img {
@@ -102,7 +103,29 @@ body {padding: 3em;
     overflow: hidden;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.781));
 }
+.nav {display: flex;
+    background: rgb(112, 112, 112);
+    padding: 2px;}
 
+.nav__list {
+    list-style: none;
+    display: flex;
+    background: lightblue;
+    gap: 1em;
+}
+
+.nav__list a {
+    color: var(--clr-primary);
+}
+
+.nav__list li:nth-of-type(2){
+    background: lightgreen;
+}
+
+.nav__list li:nth-of-type(3){
+    background: rgb(235, 144, 238);
+    margin-left: auto;
+}
 /*
 @media all and (pointer:none) , (pointer:coarse) {
     body {
