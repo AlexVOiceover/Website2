@@ -103,7 +103,9 @@ body {padding: 3em;
     overflow: hidden;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.781));
 }
-.nav {display: flex;
+.nav {
+    
+    display: flex;
     background: rgb(112, 112, 112);
     padding: 2px;}
 
