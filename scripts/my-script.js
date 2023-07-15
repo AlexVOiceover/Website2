@@ -7,17 +7,17 @@ container.addEventListener('scroll', function() {
         var text = section.querySelector('p');
 
         // calculate the start and end boundaries of each section
-        var sectionStart = img.width * i + img.width / 2;
-        var sectionEnd = img.width * (i + 1);
-
+        var sectionStart = img.width * i - img.width / 2;
+        var sectionEnd = img.width * (i + 1) - img.width / 2;
+     
         if (scrollLeft >= sectionStart && scrollLeft < sectionEnd) {
             // If the section is in the viewport, animate the title and text
             title.style.bottom = '50%';
             text.style.top = '50%';
         } else {
             // If the section is not in the viewport, reset the title and text position
-            title.style.bottom = '100%';
-            text.style.top = '100%';
+            title.style.bottom = '-50%';
+            text.style.top = '150%';
         }
     });
 });

@@ -1,6 +1,6 @@
 h2 {color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
-    font-size: x-large;}
+    font-size: xx-large;}
 
 #main-container {
     display: flex;
@@ -26,7 +26,7 @@ section img {
     position: absolute;
     width: 100%;
     text-align: center;
-    transition: 1s;
+    transition: all 0.5s ease;
 }
 
 .info h2 {
