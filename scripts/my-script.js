@@ -14,6 +14,7 @@ container.addEventListener('scroll', function() {
             // If the section is in the viewport, animate the title and text
             title.style.bottom = '50%';
             text.style.top = '50%';
+            
         } else {
             // If the section is not in the viewport, reset the title and text position
             title.style.bottom = '-50%';

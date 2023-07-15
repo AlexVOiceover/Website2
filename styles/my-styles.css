@@ -25,7 +25,8 @@ section img {
 .info p {
     position: absolute;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    padding-left: 20%;
     transition: all 0.5s ease;
 }
 
