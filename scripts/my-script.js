@@ -1,20 +1,16 @@
-window.addEventListener("scroll", function() {
-    
-  var scroll = window.scrollX; 
-  var windowWidth = window.innerWidth; 
-
-  document.querySelectorAll('section').forEach((section, index) => {
-    
-    let start = windowWidth * index;
-    let end = windowWidth * (index+1);
-
-    const info = section.querySelector('.info');
-
-    if(scroll>=start && scroll<=end){
-       info.style.opacity = '1';
-    }
-    else{
-        info.style.opacity = '0';
-    }
+window.addEventListener('scroll', function() {
+  document.querySelectorAll('section').forEach(section => {
+      const img = section.querySelector('img');
+      const title = section.querySelector('.info h2');
+      const description = section.querySelector('.info p');
+      let rect = img.getBoundingClientRect();
+      
+      if(rect.left >= 0 && rect.left <= window.innerWidth) {
+          title.style.transform = 'translateY(0)';
+          description.style.transform = 'translateY(0)';
+      } else {
+          title.style.transform = 'translateY(100%)';
+          description.style.transform = 'translateY(-100%)';
+      }
   });
 });
