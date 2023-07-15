@@ -1,3 +1,7 @@
+h2 {color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;}
+
 #main-container {
     display: flex;
     height: 100vh;
@@ -17,24 +21,24 @@ section img {
     object-fit: cover;
 }
 
-.info h2, .info p {
+.info h2,
+.info p {
     position: absolute;
     width: 100%;
-    transition: transform 1s;
+    text-align: center;
+    transition: 1s;
 }
 
 .info h2 {
     bottom: 100%;
-    transform: translateY(100%);
 }
 
 .info p {
     top: 100%;
-    transform: translateY(-100%);
 }
 
 
-
+/*
 
 h1 {font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -42,13 +46,7 @@ h1 {font-family: 'Roboto', sans-serif;
     font-size: xx-large;
     margin-bottom: 1em;}
 
-h2 {color: rgb(255, 255, 255);
-    font-family: 'Roboto', sans-serif;
-    font-size: x-large;
-    text-align: left;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 0.2em;}
+
    
 /*
 
