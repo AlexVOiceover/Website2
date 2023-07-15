@@ -12,8 +12,8 @@ container.addEventListener('scroll', function() {
      
         if (scrollLeft >= sectionStart && scrollLeft < sectionEnd) {
             // If the section is in the viewport, animate the title and text
-            title.style.bottom = '50%';
-            text.style.top = '50%';
+            title.style.bottom = '70%';
+            text.style.top = '30%';
             
         } else {
             // If the section is not in the viewport, reset the title and text position

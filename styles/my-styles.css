@@ -42,11 +42,11 @@ section img {
 }
 
 .info h2 {
-    bottom: 50%;
+    bottom: 70%;
 }
 
 .info p {
-    top: 50%;
+    top: 30%;
 }
 
 html, body {
@@ -60,10 +60,9 @@ html, body {
 
 .arrowIcon {
     position: absolute;
-    width: 5em;
     height: 5em;
+    width: 7em;
     background-image: url("../images/arrow.png");
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     background-size: cover;
     bottom: 10%;
     left: 50%;
@@ -73,7 +72,7 @@ html, body {
 
 /* For mobile devices*/
 @media all and (pointer:none) , (pointer:coarse) {
-    h2 {font-size: 4em;}
+    h2 {font-size: 3em;}
     p {font-size: 1em;}
 }
 
