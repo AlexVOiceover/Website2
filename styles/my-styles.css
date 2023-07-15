@@ -54,6 +54,13 @@ html, body {
     text-size-adjust: 100%;
 }
 
+/* For mobile devices*/
+@media all and (pointer:none) , (pointer:coarse) {
+    h2 {font-size: 4em;}
+    p {font-size: 1em;}
+}
+
+
 /*
 
 h1 {font-family: 'Roboto', sans-serif;
