@@ -1,3 +1,30 @@
+#main-container {
+    display: flex;
+    height: 100vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+section {
+    flex: 0 0 100%;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    position: absolute;
+    transition: all 1s;
+}
+
+
+/*
+
 h1 {font-family: 'Roboto', sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -63,15 +90,12 @@ h2 {color: rgb(255, 255, 255);
     text-align: center;
     font-size: calc(1rem + 5vw);
     color: rgb(255, 255, 255, 0.8);
-    line-height: 1.2; /* Adjust this value to decrease or increase the space between lines */
-    /* white-space: nowrap; */
+    line-height: 1.2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 
-    
-
-    
+     
 p {font-family: 'Roboto', sans-serif;
     text-indent: 2em;
     line-height : 1.5em;
