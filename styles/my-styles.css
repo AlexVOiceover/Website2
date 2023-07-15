@@ -28,23 +28,25 @@ section img {
     height: 100%;
     object-fit: cover;
 }
+ 
+
 
 .info h2,
 .info p {
     position: absolute;
     width: 100%;
     text-align: left;
-    padding-left: 15%;
+    padding-left: 12%;
     
     transition: all 0.5s ease;
 }
 
 .info h2 {
-    bottom: 100%;
+    bottom: 50%;
 }
 
 .info p {
-    top: 100%;
+    top: 50%;
 }
 
 html, body {
@@ -55,6 +57,19 @@ html, body {
     margin: 0%;
     height: 100%;
 }
+
+.arrowIcon {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    background-image: url("../images/arrow.png");
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 /* For mobile devices*/
 @media all and (pointer:none) , (pointer:coarse) {
