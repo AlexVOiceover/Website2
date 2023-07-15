@@ -1,12 +1,13 @@
 window.addEventListener('scroll', function() {
-  document.querySelectorAll('section').forEach(section => {
-      const img = section.querySelector('img');
-      let scrollPosition = window.pageYOffset;
-      
-      if(scrollPosition + window.innerHeight >= img.offsetTop) {
-          img.style.transform = 'scale(1)';
-      } else {
-          img.style.transform = 'scale(.8)';
-      }
-  });
+    document.querySelectorAll('section').forEach(section => {
+        const img = section.querySelector('img');
+        const info = section.querySelector('.info');
+        let scrollPosition = window.scrollY;
+        
+        if(scrollPosition + window.innerHeight >= img.offsetTop && scrollPosition <= img.offsetTop + img.offsetHeight) {
+            info.style.opacity = '1';
+        } else {
+            info.style.opacity = '0';
+        }
+    });
 });
