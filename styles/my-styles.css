@@ -7,7 +7,8 @@ h2 {color: rgb(170, 26, 110);
 p {color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
-    background-color: rgba(255,255,255,0.5);}
+    background-color: rgba(255,255,255,0.5);
+   }
 
 #main-container {
     display: flex;
@@ -21,6 +22,7 @@ section {
     flex: 0 0 100%;
     position: relative;
     scroll-snap-align: start;
+    width: 90vh;
 }
 
 section img {
@@ -34,10 +36,11 @@ section img {
 .info h2,
 .info p {
     position: absolute;
-    width: 100%;
+    width: 100vh;
     text-align: left;
-    padding-left: 12%;
-    
+    padding-left: 8%;
+    padding-right: 12%;
+   
     transition: all 0.5s ease;
 }
 
@@ -47,6 +50,8 @@ section img {
 
 .info p {
     top: 30%;
+    padding-top: 1em;
+    padding-bottom: 3%;
 }
 
 html, body {
