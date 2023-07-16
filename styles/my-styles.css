@@ -127,7 +127,11 @@ html, body {
         margin-top: 2em;
         height:4em;
     }
-    .arrow{
+    .arrow.left{
+        height:1.5em;
+        width:2em;
+    }
+    .arrow.right{
         height:1.5em;
         width:2em;
     }
