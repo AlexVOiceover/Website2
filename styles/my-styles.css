@@ -1,4 +1,4 @@
-h2 {color: rgb(170, 26, 110);
+h2 {color: #c20430;
     font-family: 'Roboto', sans-serif;
     font-size: 7em;
     background-color: rgba(0, 0, 0, 0.5);
@@ -39,7 +39,7 @@ section img {
     width: 100vh;
     text-align: left;
     padding-left: 8%;
-    padding-right: 12%;
+    padding-right: 8%;
    
     transition: all 0.5s ease;
 }
@@ -52,6 +52,8 @@ section img {
     top: 30%;
     padding-top: 1em;
     padding-bottom: 3%;
+    line-height: 2em;
+    text-indent: 2em;
 }
 
 html, body {
@@ -69,7 +71,7 @@ html, body {
     width: 7em;
     background-image: url("../images/arrow.png");
     background-size: cover;
-    bottom: 10%;
+    bottom: 7%;
     left: 50%;
     transform: translateX(-50%);
 }
