@@ -1,17 +1,13 @@
 #  My Personal Journey - A Website
-This website reflects a different approach to presenting myself. Rather than simply listing out biographies or coding experiences, I wished to delve deeper and share what truly defines me - through the lens of my personal choices and experiences.
+This website is a simple introduction to who I am, beyond just being a student. I've always thought that a person is defined best by their choices, especially personal ones. So, what could be more personal than the places we choose as our homes and the hobbies we entertain?
 
-The places where we choose to live and the hobbies we adopt often speak volumes about our personality. Keeping this in mind, I've dedicated this website to artfully blend and share a visual walkthrough of the various places I've lived, alongside a curated selection of my pastimes.
+In creating this online space, my idea was to take you on a short journey through some of the places I've lived, and a quick peek at a selection of my hobbies. I've intentionally left out the ones more related to coding - like my home assistant projects, drone building, 3D printer assembly, and so on. I feel that these are better shared and understood in person, during meetings.
 
-While I have indulged in numerous coding-related hobbies like home assistant projects, drone building, and 3D printer construction, I've chosen to keep those separate. I firmly believe in the power of interpersonal communication and would prefer to elaborate on these areas directly - in our future meetings and discussions.
-
-The website was envisioned to be simple and uncluttered, with a strong emphasis on images and a few thoughtfully chosen words. However, along the design journey, a hint of JavaScript found its way in, subtly enhancing the overall visitor experience.
-
-To showcase some of my technical skills, I also crafted an engaging game, which you can explore here: https://alexvoiceover.github.io/Game3/index.html
+The idea was to keep things straightforward. I initially wanted the site to focus entirely on pictures and short descriptions, without any JavaScript. But to be honest, I had to add a bit of JS towards the end. You'll find an example of my technical skills in a game I put together, which you can check out here: https://alexvoiceover.github.io/Game3/index.html
 
 ## Building The Site
-Symbolic and impactful, photos lie at the heart of this website. They sketch out the different countries where I've lived, infusing a personal touch and a storytelling approach to the narrative.
+I wanted to share a visual tour of the different countries I've lived in using photographs. To make the adventure a little more engaging, I settled on creating an image carousel - a popular structure you've likely come across before.
 
-To add a dash of dynamism and interactivity, I've incorporated one of the most common yet effective elements - an Image Carousel. The carousel, together with a tastefully designed divider, greatly styles up the visual aesthetics and user engagement on the site.
+And just to style things up a bit, I included a appealing divider. But don't worry - the main intent behind it all was to use these elements to narrate my story in a compelling way.
 
-I invite you to embark on this short, personal trip through my life, hoping it provides a thorough understanding of the individual behind the student.
+Enjoy the trip!
