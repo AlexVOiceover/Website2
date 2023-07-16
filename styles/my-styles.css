@@ -1,3 +1,9 @@
+h1 {font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #c20430;
+    font-size: xx-large;
+    margin-bottom: 1em;}
+
 h2 {color: #c20430;
     font-family: 'Roboto', sans-serif;
     font-size: 7em;
@@ -12,7 +18,7 @@ p {color: rgb(0, 0, 0);
 
 #main-container {
     display: flex;
-    height: 100vh; 
+    
     overflow-x: scroll;
     overflow-y: hidden;
    /* scroll-snap-type: x mandatory; */
@@ -22,12 +28,15 @@ section {
     flex: 0 0 100%;
     position: relative;
     scroll-snap-align: start;
-    width: 100vw;
+    width: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 section img {
-    
-    height: 100%;
     object-fit: cover;
 }
  
@@ -36,7 +45,7 @@ section img {
 .info h2,
 .info p {
     position: absolute;
-    width: 100%;
+    
     text-align: left;
     padding-left: 8%;
     padding-right: 8%;
@@ -46,6 +55,7 @@ section img {
 
 .info h2 {
     bottom: 70%;
+    width: 100%;
 }
 
 .info p {
@@ -75,15 +85,15 @@ html, body {
 
 .arrow.left {
     background-image: url("../images/arrowLeft.png");
-    height:5em;
-    width: 7em;
+    height:3em;
+    width: 4em;
     left: 45%;
 }
 
 .arrow.right {
     background-image: url("../images/arrowRight.png");
-    height:5em;
-    width: 7em;
+    height:3em;
+    width: 4em;
     left: 55%;
 }
 
@@ -97,11 +107,7 @@ html, body {
 
 /*
 
-h1 {font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    margin-bottom: 1em;}
+
 
 
    
