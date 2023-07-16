@@ -66,6 +66,7 @@ html, body {
 }
 
 .arrowIcon {
+    cursor: pointer;
     position: absolute;
     height: 5em;
     width: 7em;

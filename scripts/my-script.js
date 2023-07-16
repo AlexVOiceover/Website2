@@ -22,3 +22,21 @@ container.addEventListener('scroll', function() {
         }
     });
 });
+
+function scrollToNextSection(e) { 
+    // Find the section that the arrow belongs to
+    var section = e.target.parentElement.parentElement;
+    // Find the next section 
+    var nextSection = section.nextElementSibling;
+    // If there is a next section, scroll to it
+    if (nextSection) {
+        container.scroll({
+            left: nextSection.offsetLeft, 
+            behavior: 'smooth' 
+        });
+    }
+}
+
+document.querySelectorAll('.arrowIcon').forEach(function(arrowIcon) {
+    arrowIcon.addEventListener('click', scrollToNextSection);
+});
