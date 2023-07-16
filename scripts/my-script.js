@@ -37,6 +37,24 @@ function scrollToNextSection(e) {
     }
 }
 
-document.querySelectorAll('.arrowIcon').forEach(function(arrowIcon) {
-    arrowIcon.addEventListener('click', scrollToNextSection);
+function scrollToPreviousSection(e) { 
+    // Find the section that the arrow belongs to
+    var section = e.target.parentElement.parentElement;
+    // Find the previous section 
+    var previousSection = section.previousElementSibling;
+    // If there is a previous section, scroll to it
+    if (previousSection) {
+        container.scroll({
+            left: previousSection.offsetLeft, 
+            behavior: 'smooth' 
+        });
+    }
+}
+
+document.querySelectorAll('.arrow.right').forEach(function(arrowRight) {
+    arrowRight.addEventListener('click', scrollToNextSection);
+});
+
+document.querySelectorAll('.arrow.left').forEach(function(arrowLeft) {
+    arrowLeft.addEventListener('click', scrollToPreviousSection);
 });
