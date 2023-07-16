@@ -1,5 +1,6 @@
 h1 {font-family: 'Roboto', sans-serif;
-    text-align: center;
+    text-align: left;
+    padding-left: 8%;
     color: #c20430;
     font-size: xx-large;
     margin-bottom: 1em;}
@@ -16,9 +17,10 @@ p {color: rgb(0, 0, 0);
     background-color: rgba(255,255,255,0.5);
    }
 
-#main-container {
-    display: flex;
+.main-container {
     
+    display: flex;
+    width: auto;
     overflow-x: scroll;
     overflow-y: hidden;
    /* scroll-snap-type: x mandatory; */
@@ -73,6 +75,7 @@ html, body {
     text-size-adjust: 100%;
     margin: 0%;
     height: 100%;
+    background-color: rgba(0, 0, 0);
 }
 
 .arrow {
