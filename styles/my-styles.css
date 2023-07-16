@@ -121,7 +121,7 @@ html, body {
     h1 {font-size: 2.5em;}
     h2 {font-size: 2em;}
     p {font-size: 1em;
-        line-height: 1em;}
+        line-height: 0.6em;}
     .wavy {
         margin-top: 2em;
         height:5em;
