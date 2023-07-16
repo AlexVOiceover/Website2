@@ -114,8 +114,22 @@ html, body {
       radial-gradient(50.39px at 50% calc(100% + 43.75px),#0000 99%,#000 101%) 50% calc(100% - 25px)/100px calc(51% - 25px) repeat-x;
       -webkit-mask: var(--mask);
       mask: var(--mask);
-  
   }
+
+.game-icon {
+    cursor: pointer;
+    width: 6.2em;
+    height: 4em;
+    background-image: url("../images/game.png");
+    background-size: cover;}
+    
+.game-icon a {
+    display: block;
+    width: 100%;
+    height: 100%;}
+      
+  
+
 
 /* For mobile devices*/
 @media all and (pointer:none) , (pointer:coarse) {
