@@ -18,8 +18,7 @@ p {color: rgb(0, 0, 0);
     background-color: rgba(255,255,255,0.5);
    }
 
-.main-container {
-    
+.main-container {   
     display: flex;
     width: auto;
     overflow-x: scroll;
@@ -49,7 +48,6 @@ section img {
     text-align: left;
     padding-left: 8%;
     padding-right: 8%;
-   
     transition: all 0.5s ease;
 }
 
@@ -120,9 +118,10 @@ html, body {
 
 /* For mobile devices*/
 @media all and (pointer:none) , (pointer:coarse) {
-    h1 {font-size: 3em;}
+    h1 {font-size: 2.5em;}
     h2 {font-size: 2em;}
-    p {font-size: 1em;}
+    p {font-size: 1em;
+        line-height: 1em;}
     .wavy {
         margin-top: 2em;
         height:5em;
@@ -130,5 +129,7 @@ html, body {
     .arrow {
         cursor: none;
         display: none;}
-   
+    img {
+        width: 95vw;
+    }   
 }
