@@ -7,7 +7,7 @@ While I have indulged in numerous coding-related hobbies like home assistant pro
 
 The website was envisioned to be simple and uncluttered, with a strong emphasis on images and a few thoughtfully chosen words. However, along the design journey, a hint of JavaScript found its way in, subtly enhancing the overall visitor experience.
 
-To showcase some of my technical skills, I also crafted an engaging game, which you can explore here: (https://alexvoiceover.github.io/Game3/)
+To showcase some of my technical skills, I also crafted an engaging game, which you can explore here: https://alexvoiceover.github.io/Game3/index.html
 
 ## Building The Site
 Symbolic and impactful, photos lie at the heart of this website. They sketch out the different countries where I've lived, infusing a personal touch and a storytelling approach to the narrative.
