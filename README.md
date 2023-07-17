@@ -10,4 +10,6 @@ I wanted to share a visual tour of the different countries I've lived in using p
 
 And just to style things up a bit, I included a appealing divider. But don't worry - the main intent behind it all was to use these elements to narrate my story in a compelling way.
 
+On the mobile version I removed the navigation arrows for simplicity. Just giving to the user a glipse of the next picture is enought to let them know that they can scroll horizontally.
+
 Enjoy the trip!

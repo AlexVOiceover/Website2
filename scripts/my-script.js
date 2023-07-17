@@ -12,8 +12,8 @@ function adjustSections(container) {
  
         if (scrollLeft >= sectionStart && scrollLeft < sectionEnd) {
             // If the section is in the viewport, animate the title and text
-            title.style.bottom = '70%';
-            text.style.top = '30%';
+            title.style.bottom = '85%';
+            text.style.top = '15%';
         } else {
             // If the section is not in the viewport, reset the title and text position
             title.style.bottom = '-50%';
