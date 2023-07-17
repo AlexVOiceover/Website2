@@ -136,7 +136,7 @@ html, body {
           transform: scale(1);
         }
         50% {
-          transform: scale(1.05);
+          transform: scale(1.075);
         }
         100% {
           transform: scale(1);
