@@ -117,11 +117,18 @@ html, body {
   }
 
 .game-icon {
+    position: fixed;
+    opacity: 0.8;
+    top: 4%;
+    right: 2%;
+    transform: translateY(-50%);
     cursor: pointer;
-    width: 6.2em;
-    height: 4em;
+    width: 7.78em;
+    height: 5em;
     background-image: url("../images/game.png");
-    background-size: cover;}
+    background-size: cover;
+    z-index: 999;
+    }
     
 .game-icon a {
     display: block;
@@ -149,5 +156,8 @@ html, body {
         display: none;}
     img {
         width: 95vw;
-    }   
+    } 
+    .game-icon {
+        width: 3.1em;
+        height: 2em;}  
 }
