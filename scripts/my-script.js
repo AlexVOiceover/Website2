@@ -16,7 +16,7 @@ function adjustSections(container) {
             text.style.top = '15%';
         } else {
             // If the section is not in the viewport, reset the title and text position
-            title.style.bottom = '-50%';
+            title.style.bottom = '150%';
             text.style.top = '150%';
         }
     });
